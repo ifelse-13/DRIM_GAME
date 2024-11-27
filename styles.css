@@ -1,0 +1,51 @@
+/* Style pour la navigation sur la droite */
+.navigation {
+  position: fixed;          /* Fixer la navigation sur la droite */
+  right: 0;                 /* Placer à droite */
+  top: 50px;                /* Espacement depuis le haut de la page */
+  padding: 15px;            /* Espacement intérieur */
+  font-size: 0.9em;         /* Taille de police légèrement plus grande */
+  background-color: #ffffff; /* Fond blanc pour un design propre */
+  border-left: 2px solid #e0e0e0; /* Légère séparation avec une bordure plus marquée */
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1); /* Effet d'ombre pour de la profondeur */
+  z-index: 1000;            /* S'assurer que ça reste au-dessus du contenu */
+  width: 220px;             /* Largeur de la zone de navigation */
+  height: 90%;              /* S'étend sur presque toute la hauteur */
+  overflow-y: auto;         /* Ajout d'un défilement si nécessaire */
+  border-radius: 8px 0 0 8px; /* Arrondir le bord gauche pour un effet plus doux */
+}
+
+/* Style des liens de navigation */
+.navigation a {
+  display: block;               /* Lier chaque élément comme un bloc */
+  padding: 15px 12px;           /* Augmentation de l'espacement intérieur */
+  font-size: 1.1em;             /* Taille de police plus grande */
+  color: #0056b3;               /* Couleur bleue plus foncée pour plus de contraste */
+  text-decoration: none;        /* Enlever la sous-ligne */
+  margin-bottom: 12px;          /* Espacement plus important entre les éléments */
+  border-radius: 8px;           /* Arrondir davantage les coins */
+  font-weight: 600;             /* Texte légèrement plus épais */
+  transition: all 0.3s ease;    /* Animation douce pour les interactions */
+  background-color: #f1f3f5;    /* Fond légèrement plus prononcé pour les liens */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Légère ombre pour une meilleure visibilité */
+}
+
+/* Effet au survol */
+.navigation a:hover {
+  background-color: #e2e6ea;    /* Fond plus contrasté au survol */
+  color: #003d73;               /* Couleur de texte plus sombre au survol */
+  transform: translateX(-7px);  /* Décalage plus prononcé pour attirer l'attention */
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Ombre plus marquée au survol */
+}
+
+
+/* Titre de la navigation */
+.navigation .nav-title {
+  font-size: 1.1em;         /* Taille de police plus grande pour le titre */
+  font-weight: bold;        /* Titre en gras */
+  color: #333;              /* Couleur neutre pour le titre */
+  margin-bottom: 15px;      /* Espacement avec les liens */
+  text-align: center;       /* Centrer le texte */
+  border-bottom: 1px solid #ddd; /* Ligne sous le titre pour séparer visuellement */
+  padding-bottom: 10px;     /* Espacement sous le titre */
+}

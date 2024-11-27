@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Equipe du DRIM GAME">
+<meta name="dcterms.date" content="2024-11-04">
+
+<title>Revue de littérature – Site du DRIM GAME</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Site du DRIM GAME</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Accueil</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./index2.html" aria-current="page"> 
+<span class="menu-text">Revue de littérature</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Defaillance_entreprise.html"> 
+<span class="menu-text">Etude relationnelle</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./DP.html"> 
+<span class="menu-text">Données de Panel</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./VARRF.html"> 
+<span class="menu-text">Panel VAR</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Rappcorr.html"> 
+<span class="menu-text">Random forest</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">À propos</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#défaillance" id="toc-défaillance" class="nav-link" data-scroll-target="#défaillance">Défaillance</a></li>
+  <li><a href="#conjoncture" id="toc-conjoncture" class="nav-link" data-scroll-target="#conjoncture">Conjoncture</a></li>
+  <li><a href="#gas" id="toc-gas" class="nav-link" data-scroll-target="#gas">GAS</a></li>
+  <li><a href="#les-catastrophes-naturelles-avec-google-trend" id="toc-les-catastrophes-naturelles-avec-google-trend" class="nav-link" data-scroll-target="#les-catastrophes-naturelles-avec-google-trend">Les catastrophes naturelles avec Google Trend</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Revue de littérature</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Introduction</div>
+    <div class="quarto-category">Défaillance</div>
+    <div class="quarto-category">Conjoncture</div>
+    <div class="quarto-category">GAS</div>
+    <div class="quarto-category">Google trend</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Equipe du DRIM GAME </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 4, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<style>
+.justify {
+    text-align: justify;
+}
+</style>
+<div class="justify">
+<p>La défaillance d’une entreprise se caractérise par un état d’insolvabilité établi à un moment donné. Cette situation engendre un processus économique, juridique voire judiciaire pour l’entreprise. Selon la Banque de France, la défaillance est qualifiée par “l’ouverture d’une procédure collective donnant lieu au dépôt d’une déclaration de cessation de paiement”, autrement dit, l’entreprise n’a plus les ressources nécessaires pour régler ses dettes actuelles avec ses actifs disponibles. Ce terme se distingue cependant de la notion de “cessation”, qui implique l’arrêt total de l’activité d’une entreprise. Une défaillance ne conduit donc pas nécessairement à la fin d’une entreprise.</p>
+<p>En France, le cap symbolique des 60 000 défaillances d’entreprises a été franchi en 2024, avec plus de 63 000 cas déjà enregistrés sur les douze derniers mois. Les TPE, ces très petites entreprises de moins de dix salariés, représentent à elles seules 90% des défauts de paiement, illustrant leur vulnérabilité face aux difficultés économiques. Les secteurs de l’esthétique, de la boulangerie, de la restauration et du bâtiment sont particulièrement affectés, touchant de nombreux commerces directement en lien avec les consommateurs.</p>
+<p>Les analyses théoriques sur les défaillances d’entreprises révèlent la complexité des facteurs influençant la survie des entreprises et mettent en évidence les dynamiques économiques, financières et stratégiques. Malécot, professeur à Paris X Nanterre, explique que les défaillances d’entreprises ne se résument pas à des difficultés financières ponctuelles, mais sont souvent le résultat de multiples pressions, dont les conditions macroéconomiques, la structure d’endettement, et la capacité des entreprises à s’adapter aux exigences du marché.</p>
+<p>Cette étude a pour objectif de mettre en lumière les relations entre les défaillances d’entreprises de tailles différentes au sein d’un même secteur industriel, en explorant les interactions entre grandes et petites structures dans un environnement économique commun. En identifiant les facteurs qui influencent différemment la résilience des entreprises selon leur taille, nous allons chercher à comprendre comment les grandes entreprises, souvent mieux dotées en ressources, parviennent à mieux supporter les chocs économiques par rapport aux petites entreprises, plus sensibles aux fluctuations du marché. Par la suite, notre étude examinera dans quelle mesure ces relations de dépendance sont influencées par des facteurs externes, tels que la conjoncture économique et le niveau d’émissions de gaz des différents secteurs.</p>
+</div>
+</section>
+<section id="défaillance" class="level1">
+<h1>Défaillance</h1>
+<style>
+.justify {
+    text-align: justify;
+}
+</style>
+<div class="justify">
+<p>Selon La Banque de France, les procédures de défaillances sont concentrées pour l’essentiel au sein de certains secteurs. En effet, les entreprises de l’industrie, du transport et du BTP avaient en 2005, d’après Le Bulletin de La Banque de France, une probabilité de défaillance plus de deux fois supérieure à celles dans le commerce ou les services particuliers. Les défaillances d’entreprises se concentrent généralement dans les neuf mêmes secteurs, qui représentent 80 % des cas. Il s’agit principalement de la construction, du commerce de gros et de détail, ainsi que des hôtels et restaurants.</p>
+<p>Dans le secteur de la construction, la montée des coûts des matériaux et de la main-d’œuvre, combinée à des taux d’intérêt élevés, crée un environnement incertain qui fragilise la trésorerie des entreprises. Concernant le secteur du commerce de détail et de gros, la diminution du pouvoir d’achat des consommateurs, entraînée par l’inflation, ainsi que la montée en puissance du commerce en ligne, poussent les entreprises à s’adapter rapidement. Cependant, cela n’est pas toujours réalisable, notamment pour les petites entreprises.</p>
+<p>Enfin, l’hôtellerie-restauration, bien que soutenue pendant la pandémie, souffre maintenant de la réduction des aides publiques et de la hausse des coûts, ce qui limite sa capacité à se relever. Ensemble, ces facteurs expliquent pourquoi ces secteurs affichent des taux de défaillance élevés et font face à des défis considérables dans le climat économique actuel.</p>
+<p>En 2023, les faillites des grandes entreprises ont connu une forte hausse, bien que les tendances diffèrent selon la taille des entreprises. Les microentreprises et les très petites entreprises (TPE) sans salarié ou avec 1 ou 2 employés, ont connu une légère normalisation des défaillances, avec une hausse de 2% par rapport à 2019. En revanche, les TPE de 3 à 9 salariés ont vu leurs défaillances augmenter de 22%, marquant un rattrapage des faillites évitées entre 2020 et 2022. Plus de 4 700 PME-ETI, comptant 10 salariés ou plus, ont fait faillite, représentant une hausse de 37% par rapport à 2019, soit environ 1 300 entités. Cette situation indique qu’environ la moitié des défaillances évitées durant la période 2020-2022 se sont concrétisées cette année.</p>
+<p>Ces chiffres soulignent l’importante contribution des PME et TPE aux défaillances d’entreprises. En effet, les grandes entreprises, bien que souvent plus endettées que les PME, affichent un risque de défaillance inférieur. Lorsqu’une PME se retrouve dans une situation financière difficile, la cessation de paiements et la défaillance sont souvent les issues principales. En revanche, les grandes entreprises disposent de solutions telles que la restructuration ou des plans de reprise négociés en amont, leur permettant d’éviter l’insolvabilité. Par conséquent, les PME, et plus encore les TPE, affichent les taux de survie les plus bas, soulignant leur grande vulnérabilité face aux pressions économiques.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image2.png" class="img-fluid figure-img"></p>
+<figcaption>Défaillance dans les secteurs</figcaption>
+</figure>
+</div>
+<p>Dans ce tableau, nous constatons d’abord que, en 2004, les grandes entreprises sont les moins défaillantes. Le secteur le plus touché est celui du transport, avec un taux de défaillance de 1,2%, tandis que les secteurs du bâtiment, des travaux publics, ainsi que de l’hôtellerie et de la restauration ne présentent aucune défaillance. En ce qui concerne les PME, les taux de défaillance varient : ils s’élèvent à 0,5% pour l’hôtellerie et la restauration et atteignent 2,3% pour le transport. Ainsi, le transport se révèle être le secteur le plus impacté, tandis que l’hôtellerie et la restauration sont les moins touchées. Pour les TPE, la situation est légèrement différente, car l’industrie est le secteur le plus affecté avec un taux de défaillance de 3,3%, suivi du transport à 3%. Le secteur le moins touché est le commerce de détail, avec un taux de 1,1%, suivi de l’hôtellerie et de la restauration à 2,3%.</p>
+<p>En conclusion, l’analyse des défaillances par secteur d’activité en 2004 met en évidence des différences notables entre les grandes entreprises, les PME et les TPE. Les grandes entreprises semblent mieux résister aux défaillances, tandis que les PME affichent des taux variés, le secteur du transport étant le plus vulnérable. Pour les TPE, l’industrie émerge comme le secteur le plus touché, soulignant une certaine fragilité par rapport aux autres secteurs.</p>
+<p>Les grandes entreprises semblent ainsi moins sujettes au risque de défaillance, ce qui renvoie au concept de too big to fail apparue dans les années 1980 qui signifie que, plus une entreprise est grande, moins elle risque de défaillir. Ce fait a été observé lors de divers évènements qui ont marqué la conjoncture économique du pays. Toutefois, la crise économique et financière de 2008 a remis en question ce constat, montrant que même les grandes entreprises pouvaient être vulnérables. Un article proposé par le Conseil de Stabilité Financière montre que le renforcement du contrôle, l’amélioration des infrastructures financières clés et les régimes de résolution, introduits après la crise des subprimes de 2008 limite l’effet too big to fail. Ces mesures visent à transformer le concept de too big to fail en too big to disorderly failure, c’est-à-dire à éviter que les établissements majeurs ne subissent des faillites chaotiques, minimisant ainsi les effets systémiques d’une défaillance potentielle.</p>
+</div>
+</section>
+<section id="conjoncture" class="level1">
+<h1>Conjoncture</h1>
+<style>
+.justify {
+    text-align: justify;
+}
+</style>
+<div class="justify">
+<p>La conjoncture économique joue un rôle déterminant dans la probabilité de défaillance des entreprises. Elle reflète la situation économique, à un moment donné, d’un pays, d’une région ou d’un secteur, ainsi que son évolution à court terme. En période de ralentissement économique ou de récession, l’activité des entreprises, notamment des PME et des TPE, tend à diminuer, ce qui accroît leur vulnérabilité. À l’inverse, lors de phases d’expansion, ces mêmes entreprises peuvent bénéficier d’une croissance soutenue. En 2023, par exemple, bien que l’économie ait montré des signes de ralentissement et que le soutien du fonds de solidarité ait pris fin, le taux de marge des PME françaises est resté stable, illustrant leur capacité à s’adapter.</p>
+<p>Pour analyser la conjoncture et son impact sur la défaillance des entreprises, différents indicateurs économiques s’avèrent pertinents. L’évaluation de cette conjoncture économique nécessite une attention particulière des composantes clés d’une économie, telles que la production, l’emploi, la balance commerciale, le niveau des prix, le pouvoir d’achat. Ces éléments interagissent et influencent directement la santé financière des entreprises. Dans cette optique, nous avons sélectionné une série d’indicateurs, recensés dans la table ci-dessous, afin d’évaluer ces influences de manière détaillée.</p>
+<p>Les indicateurs économiques choisis tels que le PIB, l’IPC, la consommation des ménages, le taux de chômage, l’indice des prix des matières premières, la dette de l’État, ainsi que les indices de confiance des ménages et des entreprises, les taux d’intérêt, les taux de change, le CAC 40 et le VIX, jouent un rôle crucial dans l’analyse de la défaillance de marché.</p>
+<p>Ces interactions entre les indicateurs économiques et la santé des entreprises soulignent l’importance de surveiller régulièrement et attentivement la conjoncture économique pour anticiper et prévenir les risques et identifier les signes de défaillances.</p>
+</div>
+</section>
+<section id="gas" class="level1">
+<h1>GAS</h1>
+<style>
+.justify {
+    text-align: justify;
+}
+</style>
+<div class="justify">
+<p>Les gaz à effet de serre fonctionnent comme le verre d’une serre : ils absorbent la chaleur solaire qui atteint la surface terrestre, la retiennent dans l’atmosphère et empêchent son évacuation vers l’espace. Ce phénomène garde la Terre à une température plus élevée qu’elle ne le serait autrement, ce qui favorise le maintien de la vie sur la planète.</p>
+<p>Le changement climatique, considéré comme la limite planétaire la plus connue, est directement lié aux gaz à effet de serre, principalement émis par les activités humaines. En 2023, la concentration de CO₂ dans l’atmosphère atteignait 425 parties par million (ppm), contre 280 ppm en 1850. Par ailleurs, entre 1850 et 2021, la France a contribué à 2,3% des émissions de CO₂ accumulées dans l’atmosphère, illustrant l’ampleur actuelle des enjeux environnementaux.</p>
+<p>Outre le changement climatique, il existe huit autres limites planétaires, présentées ci-dessous. Ce concept a été défini en 2009 par une équipe internationale de chercheurs, rassemblée par le Stockholm Resilience Centre. Ils ont identifié et quantifié des seuils critiques au-delà desquels les équilibres naturels de la Terre risquent de se déstabiliser, rendant les conditions de vie moins favorables pour l’humanité. En septembre 2023, les chercheurs alertent : six des neuf limites planétaires ont déjà été dépassées.</p>
+<p>Le dioxyde de carbone (CO₂) est sans doute le gaz à effet de serre le plus connu et le plus étudié, car il est produit en grande quantité par les activités humaines, comme la combustion des énergies fossiles et la déforestation. Cependant, d’autres gaz contribuent également au réchauffement climatique. Parmi eux figurent le méthane (CH₄), qui est libéré lors de l’élevage du bétail et de la décomposition des déchets, et qui a un potentiel de réchauffement 28 fois supérieur à celui du CO₂ sur une période de 100 ans. L’oxyde nitreux (N₂O), principalement émis par les activités agricoles, possède un potentiel de réchauffement encore plus élevé, environ 273 fois supérieur au CO₂. Il existe également les gaz fluorés, comme les hydrofluorocarbures (HFC), les perfluorocarbures (PFC) et l’hexafluorure de soufre (SF₆), utilisés dans des applications industrielles, qui ont une durée de vie très longue et un potentiel de réchauffement extrêmement puissant. Bien que ces gaz soient émis en plus faibles quantités, ils représentent une menace importante pour le climat en raison de leur persistance dans l’atmosphère et de leur effet réchauffant élevé par rapport au CO₂.</p>
+</div>
+</section>
+<section id="les-catastrophes-naturelles-avec-google-trend" class="level1">
+<h1>Les catastrophes naturelles avec Google Trend</h1>
+<style>
+.justify {
+    text-align: justify;
+}
+</style>
+<div class="justify">
+<p>Les gaz à effet de serre sont donc au cœur du changement climatique qui affecte notre planète, cependant, leur impact n’est pas immédiatement perceptible pour la société. C’est pourquoi nous avons choisi de nous concentrer également sur les catastrophes naturelles en tant qu’indicateurs visibles de ces changements En effet, les catastrophes naturelles, telles que les tempêtes, les inondations, les sécheresses, les ouragans et les canicules, illustrent de manière concrète les conséquences tangibles de ce phénomène. Ces événements, souvent exacerbés par le changement climatique, impactent directement la vie des Français et l’environnement. Ainsi nous avons utilisé les tendances Google Trends pour représenter ces catastrophes naturelles dans notre étude. Le choix des termes et des types de catastrophes retenus pour notre analyse s’est appuyé sur “Les Chiffres clés des risques naturels - Édition 2023” élaborés par le gouvernement, qui mettent en lumière les événements naturels dommageables les plus significatifs en France.</p>
+<p>Les variables sélectionnées sont : Tempête, innondation, sécheresse, séisme, ouragan, canicule, glissement de terrain, orage, incendie, précipitation, température.</p>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
